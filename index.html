@@ -17,36 +17,36 @@
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <a href="./index.html" class="logo link"><span class="web">Web</span>Studio</a>
-        <nav class="nav-menu">
-          <ul class="nav-list list">
-            <li class="nav-list-point">
+      <div class="container header">
+        <a href="./index.html" class="logo link"><span class="logo__web">Web</span>Studio</a>
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
               <div class="current-thumb">
-                <a href="./index.html" class="nav-list-link current link">Студія</a>
+                <a href="./index.html" class="nav__link nav__link--current link">Студія</a>
               </div>
             </li>
-            <li class="nav-list-point">
-              <a href="./portfolio.html" class="nav-list-link link">Портфоліо</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link link">Портфоліо</a>
             </li>
-            <li class="nav-list-point">
-              <a href="#" class="nav-list-link link">Контакти</a>
+            <li class="nav__item">
+              <a href="#" class="nav__link link">Контакти</a>
             </li>
           </ul>
         </nav>
 
         <ul class="header-contacts list">
-          <li class="header-contacts-point">
-            <a href="mailto:info@devstudio.com" class="header-contacts-link link">
-              <svg class="header-icon" width="16" height="12">
+          <li class="header-contacts__item">
+            <a href="mailto:info@devstudio.com" class="header-contacts__link link">
+              <svg class="header-contacts__icon" , width="12" , height="16">
                 <use href="./images/icons/symbol-defs.svg#icon-mail"></use>
               </svg>
               info@devstudio.com
             </a>
           </li>
-          <li class="header-contacts-point">
-            <a href="tel:+380961111111" class="header-contacts-link link">
-              <svg class="header-icon" width="10" height="16">
+          <li class="header-contacts__item">
+            <a href="tel:+380961111111" class="header-contacts__link link">
+              <svg class="header-contacts__icon" , width="10" , height="16">
                 <use href="./images/icons/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11
@@ -484,7 +484,9 @@
     <footer class="footer">
       <div class="container footer">
         <div class="footer__item">
-          <a href="./index.html" class="footer__logo link"><span class="web">Web</span>Studio</a>
+          <a href="./index.html" class="footer__logo link"
+            ><span class="logo__web">Web</span>Studio</a
+          >
           <address class="address">
             <ul class="address__list list">
               <li class="address__item">
@@ -505,13 +507,13 @@
             </ul>
           </address>
         </div>
-        <div class="footer__item join">
-          <p class="join__text">Приєднуйтесь</p>
-          <ul class="footer-socials list">
-            <li class="footer-socials-point">
+        <div class="footer__item joining">
+          <p class="joining__text">Приєднуйтесь</p>
+          <ul class="social-links list">
+            <li class="social-links__item">
               <a
                 href=""
-                class="footer-socials-link link"
+                class="social-links__link social-links__link--footer link"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Instagram"
@@ -521,10 +523,10 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-socials-point">
+            <li class="social-links__item">
               <a
                 href=""
-                class="footer-socials-link link"
+                class="social-links__link social-links__link--footer link"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Twitter"
@@ -534,10 +536,10 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-socials-point">
+            <li class="social-links__item">
               <a
                 href=""
-                class="footer-socials-link link"
+                class="social-links__link social-links__link--footer link"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Facebook"
@@ -547,10 +549,10 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-socials-point">
+            <li class="social-links__item">
               <a
                 href=""
-                class="footer-socials-link link"
+                class="social-links__link social-links__link--footer link"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Linkedin"
@@ -563,13 +565,13 @@
           </ul>
         </div>
         <form name="join" class="form-join">
-          <div role="group" aria-labelledby="join-us" class="join-form">
-            <label for="join-us" class="join-label">Підпишіться на розсилку</label>
-            <div class="join-subform">
-              <input type="email" id="join-us" class="join-input" placeholder="E-mail" />
-              <button type="submit" class="join-button button">
+          <div role="group" aria-labelledby="join-us" class="join">
+            <label for="join-us" class="join__label">Підпишіться на розсилку</label>
+            <div class="join__subform">
+              <input type="email" id="join-us" class="join__input" placeholder="E-mail" />
+              <button type="submit" class="join__button button">
                 Підписатися
-                <svg class="join-icon" width="24" height="24">
+                <svg class="join__icon" width="24" height="24">
                   <use href="./images/icons/symbol-defs.svg#icon-send"></use>
                 </svg>
               </button>
