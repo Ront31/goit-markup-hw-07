@@ -393,14 +393,14 @@ button {
 
 /* clients */
 
-.clients-list {
+.clients__list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
 
-.clients-link {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -415,12 +415,12 @@ button {
   transition: color var(--anim);
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
   color: var(--hover-text-color);
 }
 
-.clients-icon {
+.clients__icon {
   fill: currentColor;
 }
 
@@ -432,13 +432,13 @@ button {
   padding-bottom: 60px;
 }
 
-.footer-list {
+.footer__list {
   display: flex;
   align-items: baseline;
   gap: 70px;
 }
 
-.join-text,
+.join__text,
 .join-label {
   font-weight: 700;
   line-height: 1.14;
@@ -455,7 +455,7 @@ button {
   padding-bottom: 0;
 }
 
-.footer-point.join {
+.footer__item.join {
   margin-left: 70px;
 }
 
@@ -489,7 +489,7 @@ button {
   fill: currentColor;
 }
 
-.footer-logo {
+.footer__logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -500,11 +500,11 @@ button {
   margin-bottom: 20px;
 }
 
-.address-list-point:not(.address-list-point:last-child) {
+.address__item:not(.address__item:last-child) {
   margin-bottom: 9px;
 }
 
-.address-list-link-text {
+.address__text {
   font-style: normal;
   line-height: 1.71;
 
@@ -513,7 +513,7 @@ button {
   transition: color var(--anim);
 }
 
-.address-list-link {
+.address__link {
   font-style: normal;
   line-height: 1.71;
 
@@ -522,10 +522,10 @@ button {
   transition: color var(--anim);
 }
 
-.address-list-link:hover,
-.address-list-link-text:hover,
-.address-list-link:focus,
-.address-list-link-text:focus {
+.address__link:hover,
+.address__text:hover,
+.address__link:focus,
+.address__text:focus {
   color: var(--hover-text-color);
 }
 
