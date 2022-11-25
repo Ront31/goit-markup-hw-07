@@ -171,6 +171,7 @@ button {
   gap: 10px;
 }
 
+.benefits__icon,
 .header-icon {
   fill: currentColor;
 }
@@ -193,7 +194,7 @@ button {
   margin: 0 auto;
 }
 
-.hero-title {
+.hero__title {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
@@ -208,7 +209,7 @@ button {
   color: var(--universal-color);
 }
 
-.hero-button {
+.hero__button {
   background: var(--hover-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
@@ -240,7 +241,7 @@ button {
   overflow: hidden;
 }
 
-.benefits-div {
+.benefits__div {
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -251,16 +252,16 @@ button {
   align-items: center;
 }
 
-.benefits-list {
+.benefits__list {
   list-style-type: none;
   display: flex;
 }
 
-.benefits-list-point:not(.benefits-list-point:last-child) {
+.benefits__item:not(.benefits__item:last-child) {
   margin-right: 30px;
 }
 
-.benefits-list-title {
+.benefits__title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
@@ -270,7 +271,7 @@ button {
   color: var(--secondary-text-color);
 }
 
-.benefits-list-text {
+.benefits__text {
   line-height: 1.71;
 }
 
@@ -280,12 +281,12 @@ button {
   padding-top: 0;
 }
 
-.function-thumb {
+.function__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.function-img-text {
+.function__text {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -307,23 +308,23 @@ button {
   background-color: var(--team-background-color);
 }
 
-.function-list,
-.team-list {
+.function__list,
+.team-grid {
   list-style-type: none;
   display: flex;
 }
 
-.function-list-point:not(.function-list-point:last-child) {
+.function__item:not(.function__item:last-child) {
   margin-right: 30px;
 }
 
-.team-list-point:not(.team-list-point:last-child) {
+.team-grid__item:not(.team-grid__item:last-child) {
   margin-right: 30px;
 }
 
-.function-title,
-.team-title,
-.clients-title {
+.function__title,
+.team__title,
+.clients__title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -333,7 +334,7 @@ button {
   color: var(--secondary-text-color);
 }
 
-.team-list-title {
+.team-grid__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
@@ -343,7 +344,7 @@ button {
 
   color: var(--secondary-text-color);
 }
-.team-list-text {
+.team-grid__text {
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
@@ -357,7 +358,7 @@ button {
   gap: 10px;
 }
 
-.social-links-link {
+.social-links__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -370,17 +371,17 @@ button {
   transition: color var(--anim), background-color var(--anim);
 }
 
-.social-links-link:hover,
-.social-links-link:focus {
+.social-links__link:hover,
+.social-links__link:focus {
   color: var(--universal-color);
   background-color: var(--hover-text-color);
 }
 
-.social-links-icon {
+.social-links__icon {
   fill: currentColor;
 }
 
-.team-container {
+.team-grid__container {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
