@@ -698,6 +698,8 @@ button {
   line-height: 1.88;
 }
 
+/* modal */
+
 .backdrop {
   position: fixed;
   top: 0;
