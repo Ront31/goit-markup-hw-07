@@ -13,6 +13,6 @@ $anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  color: var(--primary-text-color);
+  color: $primaryTextColor;
   letter-spacing: 0.03em;
 }
