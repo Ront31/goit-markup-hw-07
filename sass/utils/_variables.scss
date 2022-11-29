@@ -9,10 +9,4 @@ $teamBackgroundColor: #f5f4fa;
 $portfolioDivColor: #eeeeee;
 $teamSocial-linksColor: #afb1b8;
 $anim: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 14px;
-  color: $primaryTextColor;
-  letter-spacing: 0.03em;
-}
+$font: 'Roboto', sans-serif;
